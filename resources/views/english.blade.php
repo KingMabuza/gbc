@@ -13,11 +13,12 @@
   <div class="navbar-fixed">
     <nav class="black">
         <div class="nav-wrapper">
-        <a href="#!" class="brand-logo black-text"><img src="images/logo.png" height="70"></a>
+        <a href="/en" class="brand-logo black-text"><img src="images/logo.png" height="70"></a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
             <li><a href="#about">About Us</a></li>
             <li><a href="#services">Services</a></li>
+            <li><a href="/" class="btn white black-text">French</a></li>
         </ul>
         </div>
     </nav>
@@ -26,6 +27,7 @@
   <ul class="sidenav" id="mobile-demo">
     <li><a href="#about">About</a></li>
     <li><a href="#services">Services</a></li>
+    <li><a href="/" class="btn black white-text">French</a></li>
   </ul>
 
   <div id="banner">
@@ -129,6 +131,14 @@
         <div class="row">
             <div class="col l6 s12">
                 <img src="/images/logo.png" height="120"/>
+
+                <ul>
+                    <li><a href="tel:(+243)848428999" class="white-text">(+243)848 428 999</a></li>
+                    <li><a href="tel:(+243)993242872" class="white-text">(+243)993 242 872</a></li>
+                    <li>
+                        <p>356 Av.Maduda, Commune Dilala, Kolwezi</p>
+                    </li>
+                </ul>
             </div>
             <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Links</h5>
