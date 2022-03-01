@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+#banner{
+    background-image: url('/images/camera.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#banner h1{
+    margin:0;
+
+}
+
+#services{
+    background-image: url('/images/camera2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+}
+
+#services h2{
+    margin:0;
+}
+
+#services-content{
+    padding: 50px;
+}
