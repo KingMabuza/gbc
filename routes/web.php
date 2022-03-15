@@ -13,11 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('french');
-});
 
-Route::get('/en', function () {
+
+Route::get('/', function () {
     return view('english');
 });
 

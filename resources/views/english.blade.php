@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>GBC</title>
 </head>
 <body>
@@ -84,6 +87,8 @@
             <div class="col l6 s12">
                 <h5 class="white-text">Planet Revival</h5>
                 <p class="grey-text text-lighten-4">Founded in 2020 seeing the need to make a change and bring more innovative solutions towards the current pollution dilemma in South Africa. </p>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
             </div>
             <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Contact</h5>
