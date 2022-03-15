@@ -11,147 +11,99 @@
 </head>
 <body>
   <div class="navbar-fixed">
-    <nav class="black">
-        <div class="nav-wrapper">
-        <a href="/en" class="brand-logo black-text"><img src="images/logo.png" height="70"></a>
+    <nav class="white">
+        <div class="nav-wrapper container">
+        <a href="/en" class="brand-logo green-text text-darken-2"><img id="logo" src="/logo.png" width="140"/></a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="/" class="btn white black-text">French</a></li>
+            <li><a href="#about" class="blue-grey-text text-darken-2">About</a></li>
+            <li><a href="#services" class="blue-grey-text text-darken-2">How It Works</a></li>
+            <li><a href="#contact" class="blue-grey-text text-darken-2">Contact Us</a></li>
         </ul>
         </div>
     </nav>
   </div>
 
   <ul class="sidenav" id="mobile-demo">
-    <li><a href="#about">About</a></li>
-    <li><a href="#services">Services</a></li>
-    <li><a href="/" class="btn black white-text">French</a></li>
+    <li><a href="#about" class="blue-grey-text text-darken-2">About</a></li>
+    <li><a href="#services" class="blue-grey-text text-darken-2">How It Works</a></li>
+    <li><a href="#contact" class="blue-grey-text text-darken-2">Contact Us</a></li>
   </ul>
 
   <div id="banner">
-      <div class="container">
-        <h1 class="white-text">YOUR PARTNER OF CHOICE</h1>
 
-      </div>
+        <h1 class="container center white-text">RECYCLING JUST GOT COOL</h1>
+
   </div>
 
   <div id="about" class="section scrollspy">
     <div class="center container">
-        <h3 class="green-text text-darken-4">Who We Are</h3>
-        <p>G.B.C.-SARL a highly diversified and broad organization which was established to penetrate, dominate and influence in
-        various functions of the business. Our products and services are dynamic and modern, which has been proved by the
-        experience which is held under our spell; however, G.B.C.-SARL is well respected for its effectiveness of new
-        development reliable business solutions and latest advanced technology. In other words, we move with times and trends.</p>
+        <h3 class="blue-grey-text text-darken-4"><b>What Is A Reverse Vending Machine?</b></h3>
+        <p class="blue-grey-text text-darken-2">With the current recycling and eco-friendly movement spanning across the packaging sector comes a wealth of innovation,
+        which not only benefits the packaging industry, but also the planet. From plant-based packaging materials to naturally
+        digestible bioplastics, it’s not surprising that packaging has stepped up even further. Reverse vending machines are yet
+        another example of packaging ingenuity, designed to help reduce the number of plastic beverage containers are thrown
+        away rather than being recycled.</p>
 
-        <p>We consider any project or task, no matter how big or small as a top priority and it is of vital importance to us to
-        ensure that our client receive great results and value for their money whilst getting peace of mind. In the provision of
-        our services, we have studied and understood the changes faced by the government and corporate companies which is the
-        bedrock of the provision of our services. We maintain business relationships with all our clients including government
-        departments, municipalities, private companies, public companies, close corporation as well as individuals. We emphasize
-        the use of our Client's Relationship.</p>
+        <p class="blue-grey-text text-darken-2">The reverse vending machine uses technology to identify, sort, collect and process used containers. There are two types
+        of reverse vending machines. The first is the more popular of the two, as it only focuses on one element – accepting
+        used containers like plastic bottles and cans and returning money to the user. The second type allows you to purchase
+        beverages but asks you to pay a small deposit on the beverage container; however, once you are finished with your drink
+        and the beverage container, you can return it and get your deposit back. The container is then sent off to be recycled
+        and used again.</p>
     </div>
 
-  <div class="row container">
-    <div class="col s12 m12">
-      <div class="card white">
-        <div class="card-content">
-          <span class="card-title center green-text text-darken-4"><b>Mission</b></span>
-          <div class="card-action"></div>
-          <p>to serve our Customers / Client with the best products and to provide tailor made superior services that each client's
-        unique demand and satisfy that demand to the best of our ability at competitive prices. Part of our plan is to solve
-        challenges that other small business encounter daily and to provide them with effective business solution. We aim at
-        contributing towards economic growth, social stability and creating employment within the communities. We are committed
-        to offer reliable cost-effective customer orientated security services by selecting best security guards, train and
-        retain them to deliver quality service to our customers.</p>
+    <h3 class="blue-grey-text text-darken-4 center"><b>How Does It Help?</b></h3>
+
+    <div class="row container">
+        <div class="col s12 m6"><img class="responsive-img" src="/bottles.jpg" height="500" width="500"/></div>
+        <div class="col s12 m6 push-m1"><p class="blue-grey-text text-darken-2">By being able to access easy ways to recycle packaging and containers, as well as being able to collect a reward upon
+        returning their packaging, consumers are much more likely to get involved with recycling. This means that more consumers
+        are contributing and doing their part, leading to fewer bottles and containers that can be recycled being thrown away.</p>
+        <p class="blue-grey-text text-darken-2">Returning your containers to a reverse vending machine is the only way to make sure the containers can be turned into
+        new bottles and cans again and again.</p>
+        <p class="blue-grey-text text-darken-2">With the Planet Revival vending machines it is now much quicker and easier to save the planet. </p>
         </div>
+    </div>
+
+  </div>
+
+  <div id="services" class="section scrollspy center">
+      <div class="video-container">
+        <iframe class="center" width="853" height="480" src="https://www.youtube.com/embed/ZI7OldXuq7c"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
       </div>
-    </div>
 
-    <div class="col s12 m12">
-        <div class="card white">
-            <div class="card-content">
-                <span class="card-title center green-text text-darken-4"><b>Values</b></span>
-                <div class="card-action"></div>
-                <p>Excellence orientated, optimistic management, total commitment reliability, Diligence, well experienced professionals,
-                accountability and responsibility, Accuracy and attention to details are the features of everything we do. We believe in
-                the following values: CEC • Treat all clients with dignity and respect • Honesty and Loyalty • Professional Conduct •
-                Quality Customer Services • Uphold PSIRA requirements and National Legislations</p>
-            </div>
-        </div>
-    </div>
-  </div>
-
-  </div>
-
-  <div id="services" class="section scrollspy">
-    <div id="services-intro">
-        <h2 class="green-text text-darken-4">SERVICES</h2>
-    </div>
-  </div>
-  <div id="services-content">
-  <p class="container">We offer a variety of services which are carried out by well-trained, equipped and motivated
-    personnel. They are
-    monitored on hourly basis by line supervisors. Our services are as follows:</p>
-    <br/>
-    <ol class="container">
-        <li>Guarding (Armed and Unarmed security officers)</li>
-        <li>Private investigations</li>
-        <li>V.I.P Protection, Close protection or special services</li>
-        <li>Security Officer (Dog handler)</li>
-        <li>Access control and other related services</li>
-        <li>Retail Services</li>
-        <li>Armed Reaction/Response</li>
-        <li>CCTV Surveillance</li>
-        <li>Mining Security</li>
-        <li>National Key Point</li>
-        <li>Banking security</li>
-        <li>Events</li>
-    </ol>
-    <br/>
-    <p class="container">As front-line representatives of your company, our security guards wear a high-quality uniform and take pride in their
-    appearance and we can guarantee above average service. As part of our recruitment process we check the backgrounds of
-    all our potential security staff, many come to us from the armed forces and we particularly welcome those with first aid
-    skills or other relevant experience.</p>
-
-    <div class="container">
-        <a href="/secprofile.pdf" download>
-            <p class="green-text text-darken-4"><b>English Brochure</b></p>
-        </a>
-
-        <a href="/frencgsc.pdf" download>
-            <p class="green-text text-darken-4"><b>French Brochure</b></p>
-        </a>
-    </div>
   </div>
 
   <footer class="page-footer black">
     <div class="container">
         <div class="row">
             <div class="col l6 s12">
-                <img src="/images/logo.png" height="120"/>
-
-                <ul>
-                    <li><a href="tel:(+243)848428999" class="white-text">(+243)848 428 999</a></li>
-                    <li><a href="tel:(+243)993242872" class="white-text">(+243)993 242 872</a></li>
-                    <li>
-                        <p>356 Av.Maduda, Commune Dilala, Kolwezi</p>
-                    </li>
-                </ul>
+                <h5 class="white-text">Planet Revival</h5>
+                <p class="grey-text text-lighten-4">Founded in 2020 seeing the need to make a change and bring more innovative solutions towards the current pollution dilemma in South Africa. </p>
             </div>
             <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
-                <ul>
-                    <li><a class="green-text text-darken-4" href="#about">About Us</a></li>
-                    <li><a class="green-text text-darken-4" href="#services">Services</a></li>
-                </ul>
+                <h5 class="white-text">Contact</h5>
+                <address>
+                    <a href="mailto:info@planetrevival.co.za" class="grey-text text-lighten-4">Info@planetrevival.co.za</a>.<br>
+                    <a href="tel:+27780365685" class="grey-text text-lighten-4">+27 78 036 5685</a>
+                    <br/>
+                    <a class="grey-text text-lighten-4">Waterfall City,Midrand</a>
+                    <br/>
+                    <a class="grey-text text-lighten-4">South Africa</a>
+
+
+
+                </address>
             </div>
         </div>
     </div>
     <div class="footer-copyright">
         <div class="container">
-            © Copyright GCB
+            © 2022 Copyright Planent Revival
         </div>
     </div>
 </footer>
