@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>GBC</title>
+    <title>Planet Revival - Recycling Made Cool</title>
 </head>
 <body>
   <div class="navbar-fixed">
@@ -18,7 +18,7 @@
         <div class="nav-wrapper container">
         <a href="/en" class="brand-logo"><img id="logo" src="/logo.png" width="135"/></a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger blue-grey-text text-darken-2"><i class="material-icons blue-grey-text text-darken-2">menu</i></a>
-        <ul class="right hide-on-med-and-down">
+        <ul class="right hide-on-med-and-down blue-grey-text text-darken-2">
             <li><a href="#about" class="blue-grey-text text-darken-2">About</a></li>
             <li><a href="#services" class="blue-grey-text text-darken-2">How It Works</a></li>
             <li><a href="#contact" class="blue-grey-text text-darken-2">Contact Us</a></li>
