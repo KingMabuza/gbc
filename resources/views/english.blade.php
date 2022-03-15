@@ -16,8 +16,8 @@
   <div class="navbar-fixed">
     <nav class="white">
         <div class="nav-wrapper container">
-        <a href="/en" class="brand-logo green-text text-darken-2"><img id="logo" src="/logo.png" width="140"/></a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <a href="/en" class="brand-logo"><img id="logo" src="/logo.png" width="135"/></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger blue-grey-text text-darken-2"><i class="material-icons blue-grey-text text-darken-2">menu</i></a>
         <ul class="right hide-on-med-and-down">
             <li><a href="#about" class="blue-grey-text text-darken-2">About</a></li>
             <li><a href="#services" class="blue-grey-text text-darken-2">How It Works</a></li>
@@ -27,7 +27,7 @@
     </nav>
   </div>
 
-  <ul class="sidenav" id="mobile-demo">
+  <ul class="sidenav blue-grey-text text-darken-2" id="mobile-demo">
     <li><a href="#about" class="blue-grey-text text-darken-2">About</a></li>
     <li><a href="#services" class="blue-grey-text text-darken-2">How It Works</a></li>
     <li><a href="#contact" class="blue-grey-text text-darken-2">Contact Us</a></li>
@@ -37,12 +37,13 @@
 
         <h1 class="container center white-text">RECYCLING JUST GOT COOL</h1>
 
+
   </div>
 
   <div id="about" class="section scrollspy">
     <div class="center container">
         <h3 class="blue-grey-text text-darken-4"><b>What Is A Reverse Vending Machine?</b></h3>
-        <p class="blue-grey-text text-darken-2">With the current recycling and eco-friendly movement spanning across the packaging sector comes a wealth of innovation,
+        <p class="blue-grey-text text-darken-2">With the current recycling and eco-friendly movement spanning across the packaging sector comes a wealth of innovation,we offer <b>Reverse Vending Machines</b> across different locations in the country
         which not only benefits the packaging industry, but also the planet. From plant-based packaging materials to naturally
         digestible bioplastics, it’s not surprising that packaging has stepped up even further. Reverse vending machines are yet
         another example of packaging ingenuity, designed to help reduce the number of plastic beverage containers are thrown
@@ -81,37 +82,43 @@
 
   </div>
 
-  <footer class="page-footer black">
-    <div class="container">
-        <div class="row">
-            <div class="col l6 s12">
-                <h5 class="white-text">Planet Revival</h5>
-                <p class="grey-text text-lighten-4">Founded in 2020 seeing the need to make a change and bring more innovative solutions towards the current pollution dilemma in South Africa. </p>
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-twitter"></i>
-            </div>
-            <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Contact</h5>
-                <address>
-                    <a href="mailto:info@planetrevival.co.za" class="grey-text text-lighten-4">Info@planetrevival.co.za</a>.<br>
-                    <a href="tel:+27780365685" class="grey-text text-lighten-4">+27 78 036 5685</a>
-                    <br/>
-                    <a class="grey-text text-lighten-4">Waterfall City,Midrand</a>
-                    <br/>
-                    <a class="grey-text text-lighten-4">South Africa</a>
-
-
-
-                </address>
-            </div>
-        </div>
-    </div>
-    <div class="footer-copyright">
+      <footer class="page-footer black">
+        <div id="contact" class="section scrollspy">
         <div class="container">
-            © 2022 Copyright Planent Revival
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Planet Revival</h5>
+                    <p class="grey-text text-lighten-4">Founded in 2020 seeing the need to make a change and bring more
+                        innovative solutions towards the current pollution dilemma in South Africa. </p>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Contact</h5>
+                    <address>
+                        <a href="mailto:info@planetrevival.co.za"
+                            class="grey-text text-lighten-4">Info@planetrevival.co.za</a>.<br>
+                        <a href="tel:+27780365685" class="grey-text text-lighten-4">+27 78 036 5685</a>
+                        <br />
+                        <a class="grey-text text-lighten-4">Waterfall City,Midrand</a>
+                        <br />
+                        <a class="grey-text text-lighten-4">South Africa</a>
+
+
+
+                    </address>
+                </div>
+            </div>
         </div>
-    </div>
-</footer>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2022 Copyright Planet Revival
+            </div>
+        </div>
+        </div>
+    </footer>
+
+
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
